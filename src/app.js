@@ -104,3 +104,96 @@ var celsius2 = (fahrenheit2 - 32) * 5 / 9;
 console.log (celsius2)
 document.write (celsius + "°C is " + fahrenheit + "°F" + "</br>")
 document.write (fahrenheit2 + "°F is " + celsius2 + "°C" + "</br>")
+
+// Shopping Cart
+document.write ("<h1>Shopping Cart</h1>");
+var itm1Price = 650;
+var itm1Qty = 3;
+var item1Total = itm1Price * itm1Qty;
+console.log(item1Total);
+var itm2Price = 100;
+var itm2Qty = 7;
+var item2Total = itm2Price * itm2Qty;
+console.log(item2Total);
+var shippingCharges = 100;
+var totalCost = (item1Total + item2Total + shippingCharges);
+console.log (totalCost);
+document.write ("Price of item 1 is " + itm1Price  + "</br>");
+document.write ("Quantity of item 1 is " + itm1Qty + "</br>");
+document.write ("Price of item 2 is " + itm2Price + "</br>");
+document.write ("Quantity of item 2 is " + itm2Qty + "</br>");
+document.write ("Shipping charges is " + shippingCharges + "</br>");
+document.write ("Total cost of your order is " + totalCost + "</br>");
+
+// MarkSheet
+document.write ("<h1>MarkSheet</h1>");
+var totalMarks = 980;
+var marksObtained = 804;
+var percentage = marksObtained * 100 / totalMarks;
+console.log(percentage);
+document.write ("Total marks: " + totalMarks + "</br>");
+document.write ("Marks obtained: " + marksObtained + "</br>");
+document.write ("Percentage " + percentage + "</br>");
+
+// Currency in PKR
+document.write ("<h1>Currency in PKR</h1>");
+var usDollar = 10;
+var dollarPakRs = 104.80;
+var totalUsDollarRs = usDollar * dollarPakRs;
+console.log(totalUsDollarRs);
+var saudiRiyal = 25;
+var riyalPakRs = 28;
+var totalRiyalRs = saudiRiyal * riyalPakRs;
+console.log(totalRiyalRs);
+var totalCurrency = totalUsDollarRs + totalRiyalRs;
+document.write ("Total Currency in PKR: " + totalCurrency + "</br>")
+
+// Arithmetic sequence
+document.write ("<h1>Arithmetic sequence</h1>");
+var someNumber = 21;
+var add = 5;
+var multiply = 10;
+var divide = 2;
+var total = someNumber + add * multiply / divide;
+console.log(total);
+document.write ("Some Number: " + someNumber + "</br>");
+document.write ("Add: " + add + "</br>");
+document.write ("Multiply: " + multiply + "</br>");
+document.write ("Divide: " + divide + "</br>");
+document.write ("The answer of arithmetic sequence is " + total + "</br>");
+
+// Age Calculator
+document.write ("<h1>Age Calculator</h1>");
+var currentYear = 2024;
+var birthYear = 2003;
+var yourAge = currentYear - birthYear;
+console.log(yourAge);
+document.write ("Current Year: " + currentYear + "</br>")
+document.write ("Birth Year: " + birthYear + "</br>")
+document.write ("Your Age is " + yourAge + "</br>")
+
+// The Geometrizer
+document.write ("<h1>The Geometrizer</h1>");
+var radius = 20
+var circumference = 2 * 3.142 * radius;
+console.log(circumference);
+var areaOfCircle = radius * radius * 3.142;
+console.log(areaOfCircle);
+document.write ("Radius of Circle: " + radius + "</br>");
+document.write ("The Circumference is " + circumference + "</br>");
+document.write ("The Area is: " + areaOfCircle + "</br>")
+
+// The Lifetime Supply Calculator
+document.write ("<h1>The Lifetime Supply Calculator</h1>");
+var snack = " Chocolate chip";
+var currentAge = 21;
+var maxAge = 65;
+var remainAge = maxAge - currentAge;
+var snackPerDay = 3;
+var totalSnack = (maxAge - currentAge) * snackPerDay;
+console.log(totalSnack);
+document.write ("Favourite Snack: " + snack + "</br>");
+document.write ("Current Age: " + currentAge + "</br>");
+document.write ("Estimated Maximum Age: " + maxAge + "</br>");
+document.write ("Amount of Snacks Per Day " + snackPerDay + "</br>");
+document.write ("Amount of Snacks Per Day " + totalSnack + " chocolate chip to last you until the rip old age of " + remainAge + "</br>");  
